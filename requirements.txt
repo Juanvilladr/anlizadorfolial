@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-multipart
+opencv-python
+numpy
+# Librerías para IA (puedes elegir una, TensorFlow es muy común)
+tensorflow
+Pillow
