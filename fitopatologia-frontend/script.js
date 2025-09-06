@@ -1,7 +1,7 @@
 // script.js (Versión 2.4 - Final, Completa y Verificada)
 
 // --- Constantes y Elementos del DOM ---
-const API_URL = "https://api-fitopatologia.onrender.com/analizar-imagen-compleja/";
+const API_URL = "http://127.0.0.1:8000/analizar-imagen-compleja/";
 
 const fileLoader = document.getElementById('fileLoader');
 const analyzeButton = document.getElementById('analyzeButton');
@@ -252,3 +252,4 @@ function calculateSummaryStats(results) {
     const averageSeverity = totalSeverity / n;
     return { incidence, averageSeverity };
 }
+
