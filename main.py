@@ -91,3 +91,4 @@ async def analizar_imagen_compleja(file: UploadFile = File(...)):
         "numero_hojas_detectadas": len(detected_boxes),
         "resultados_individuales": results_per_leaf
     }
+    
