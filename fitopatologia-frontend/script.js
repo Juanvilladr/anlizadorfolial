@@ -1,7 +1,8 @@
-// script.js (Versión 2.4 - Final, Completa y Verificada)
+// script.js (Versión 2.5 - Final para Despliegue Web)
 
 // --- Constantes y Elementos del DOM ---
-const API_URL = "http://127.0.0.1:8000/analizar-imagen-compleja/";
+// ¡CAMBIO CRUCIAL! Reemplaza la URL de abajo con la URL pública de tu servidor de Render/Heroku.
+const API_URL = "https://tu-api-en-render.onrender.com/analizar-imagen-compleja/";
 
 const fileLoader = document.getElementById('fileLoader');
 const analyzeButton = document.getElementById('analyzeButton');
@@ -252,4 +253,5 @@ function calculateSummaryStats(results) {
     const averageSeverity = totalSeverity / n;
     return { incidence, averageSeverity };
 }
+
 
